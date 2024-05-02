@@ -47,6 +47,13 @@ a {
     height: auto;
 }
 
+.person {
+    width: 451px;
+    height: 458px;
+    object-fit: cover;
+    margin-top: 25px;
+}
+
 .top_text {
     width: 544px;
     margin-top: 36px;
@@ -702,22 +709,22 @@ path {
         flex-direction: column;
     }
 
-    fa-solid {
+    .fa-solid {
         display: var(--fa-display, inline-block) !important;
     }
 
-    fa-bars {
+    .fa-bars {
         margin-top: 25px;
         margin-right: 32px;
         height: 32px;
         width: 32px;
     }
 
-    fa-xmark {
+    .fa-xmark {
         position: absolute;
     }
 
-    nav {
+    .nav {
         position: absolute;
         top: 0;
         left: -100%;
@@ -866,18 +873,18 @@ path {
         flex-direction: column;
     }
 
-    fa-solid {
+    .fa-solid {
         display: var(--fa-display, inline-block) !important;
     }
 
-    fa-bars {
+    .fa-bars {
         margin-top: 25px;
         margin-right: 32px;
         height: 32px;
         width: 32px;
     }
 
-    fa-xmark {
+    .fa-xmark {
         position: absolute;
     }
 
