@@ -176,7 +176,7 @@ service__button {
 .service__grid {
     padding-bottom: 98px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 52px 20px;
     border-bottom: 5px solid #ECECEC;
 }
@@ -359,7 +359,17 @@ service__button {
     overflow: hidden;
 }
 
-.meet__people:hover .meet__name-box {
+.meet__peopleee {
+    display: flex;
+    position: relative;
+    width: 196px;
+    height: 216px;
+    background-image: url(img/personn.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+meet__people:hover .meet__name-box {
     right: 0;
     transition: right 0.3s;
 }
@@ -384,7 +394,7 @@ service__button {
 
 }
 
-.meet__person-name {
+meet__person-name {
     font-style: italic;
     font-weight: 600;
     font-size: 18px;
