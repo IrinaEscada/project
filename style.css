@@ -842,6 +842,12 @@ path {
         justify-content: center;
     }
 
+    .meet__peopleee {
+        width: 166px;
+        height: 175px;
+        justify-content: center;
+    }
+
     .footer {
         flex-direction: column-reverse;
         gap: 16px;
